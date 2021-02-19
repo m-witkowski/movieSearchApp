@@ -1,0 +1,17 @@
+.movieCard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.1);
+}
+
+.movieCard img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.1);
+}
