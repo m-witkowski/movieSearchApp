@@ -14,7 +14,7 @@ class App extends React.Component {
   }
 
   searchForMovie(title, page){
-    fetch(`http://www.omdbapi.com/?s=${title}&page=${page}&apikey=c4225771&`).then(response=>response.json())
+    fetch(`https://www.omdbapi.com/?s=${title}&page=${page}&apikey=c4225771&`).then(response=>response.json())
     .then(response=>  this.setState({results: response.Search, page: page}));
   }
 
